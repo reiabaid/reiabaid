@@ -1,95 +1,100 @@
-<h1 align="center">Reia Baid</h1>
+<div align="center">
+  <img width="100%" src="assets/banner.svg" alt="Reia Baid - i like building things that solve real problems, or at least try to" />
+</div>
 
-<p align="center">
-  <samp>ML ENGINEERING / COMPUTER VISION / GPU SYSTEMS</samp>
-</p>
+<br />
 
-<p align="center">
-  Computer science student at BML Munjal University.
-  <br />
-  I build AI systems and try to understand what runs underneath them.
-</p>
+<div align="center">
+  <a href="https://www.linkedin.com/in/reia-baid">linkedin</a> · <a href="https://github.com/reiabaid?tab=repositories">repositories</a> · <a href="mailto:baidreia@gmail.com">email</a>
+</div>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/reia-baid">LinkedIn</a>
-  &nbsp; / &nbsp;
-  <a href="https://github.com/reiabaid?tab=repositories">Repositories</a>
-</p>
+<br />
 
----
+### `01` / selected work
 
-### `01` / Selected work
+<sub>a thread through the work: make things explainable, make them reliable, make them useful to someone real.</sub>
 
-<table>
+<table cellpadding="14">
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/reiabaid/cuda-vision-pipeline">CUDA Vision Pipeline</a></h3>
-      Image-processing kernels in CUDA, each checked bit-exact against OpenCV
-      and measured against the GPU's memory-bandwidth limit.
+    <td width="50%" height="105" valign="top">
+      <b><a href="https://github.com/reiabaid/cuda-vision-pipeline">cuda-vision-pipeline</a></b>
+      <br />
+      cuda image kernels, bit-exact vs opencv, ~88% of peak memory bandwidth.
       <br /><br />
-      Vectorized grayscale reaches about 88% of peak bandwidth. Separable and
-      shared-memory blur are in progress.
-      <br /><br />
-      <sub>CUDA / C++ / OpenCV / Nsight</sub>
+      <sub>CUDA · C++ · OpenCV · Nsight</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/reiabaid/temporal-engine">Temporal Engine</a></h3>
-      A deterministic, event-sourced time-tracking engine and MCP server.
-      AI agents get correct deadlines, new days and DST handling without the
-      model tracking time itself.
+    <td width="50%" height="105" valign="top">
+      <b><a href="https://github.com/reiabaid/temporal-engine">temporal-engine</a></b>
+      <br />
+      deterministic time engine + mcp server, so llm agents never lose track of time. 360 tests.
       <br /><br />
-      360 tests, MIT licensed. Benchmark against real LLMs is in progress.
-      <br /><br />
-      <sub>Python / MCP / event sourcing</sub>
+      <sub>Python · MCP · event sourcing</sub>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/reiabaid/LockIn">Lock-In</a></h3>
-      A chat-first goal-accountability app. An AI partner, Darcy, runs on top of
-      a deterministic daily planner that learns your pace.
+    <td width="50%" height="105" valign="top">
+      <b><a href="https://github.com/reiabaid/SCOPE">SCOPE</a></b>
+      <br />
+      explainable npm risk scanner - a model scores packages 0 to 1, SHAP shows why. cli, web app, github action.
       <br /><br />
-      <sub>React PWA / FastAPI / PostgreSQL / async SQLAlchemy</sub>
+      <sub>Python · scikit-learn · SHAP · FastAPI</sub>
     </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/reiabaid/npm">SCOPE</a></h3>
-      Machine learning pipeline that flags risky npm packages, with SHAP
-      explanations for each prediction.
+    <td width="50%" height="105" valign="top">
+      <b><a href="https://lock-in-livid-nine.vercel.app/">Lock-In</a></b>
+      <br />
+      a chat-first accountability app. an ai partner plans your day and learns your pace.
       <br /><br />
-      <sub>Python / scikit-learn / SHAP / FastAPI / GitHub Actions</sub>
+      <sub>React PWA · FastAPI · PostgreSQL</sub>
     </td>
   </tr>
 </table>
 
-### `02` / Research
+### `02` / research + currently
 
 ```text
 PD-forecast
-  [ONE LINE: what it predicts, on what data, and your mentor's institution]
-  status: in progress
+  forecasting a parkinson's patient's next levodopa wear-off from dose
+  timing, quick self-reports and a short tap test. status: in progress
+
+evaluating    whether a deterministic time layer improves llm agents
+studying      deep learning, computer architecture, operating systems
 ```
 
-### `03` / Currently
+### `03` / stack
 
-```text
-building       GPU kernels from scratch, benchmarked against hardware limits
-evaluating     whether a deterministic time layer improves LLM agents
-studying       deep learning, computer architecture, operating systems
-practicing     data structures and algorithms in Java
-```
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=python,java,cpp,cuda,js,ts,pytorch,opencv,fastapi,react,postgres,mongodb,docker,aws,git,githubactions&perline=8" />
+  </a>
+</div>
 
-### `04` / Stack
+### `04` / activity
 
-**Languages** `Python` `Java` `C++` `CUDA` `JavaScript` `SQL`
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=reiabaid&bg_color=0d1117&color=8b949e&line=fb923c&point=fde8c8&area=true&area_color=f59e0b&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=reiabaid&bg_color=ffffff&color=57606a&line=ea8a3c&point=1f2328&area=true&area_color=f2b267&hide_border=true" />
+  </picture>
+</div>
 
-**ML and CV** `PyTorch` `scikit-learn` `OpenCV` `SHAP` `Pandas` `NumPy`
+### `05` / stats
 
-**Backend and web** `FastAPI` `React` `Node.js` `PostgreSQL` `MongoDB` `SQLAlchemy`
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=reiabaid&show_icons=true&hide_border=true&count_private=true&bg_color=0d1117&title_color=fb923c&text_color=c9d1d9&icon_color=84a98c" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=reiabaid&show_icons=true&hide_border=true&count_private=true" />
+  </picture>
+  &nbsp;&nbsp;&nbsp;
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=reiabaid&background=0d1117&ring=fb923c&fire=f59e0b&currStreakLabel=84a98c&sideLabels=8b949e&dates=8b949e&currStreakNum=e6e6e6&sideNums=e6e6e6&hide_border=true" />
+    <img height="165" src="https://streak-stats.demolab.com?user=reiabaid&hide_border=true" />
+  </picture>
+</div>
 
-**Tools** `Git` `GitHub Actions` `Docker` `AWS`
+<div align="center">
+  <sub>open to ml / computer vision internships for summer 2027</sub>
+</div>
 
----
-
-<p align="center">
-  <sub>Open to ML engineering internships for Summer 2027.</sub>
-</p>
+<div align="center">
+  <img width="100%" src="assets/footer.svg" alt="" />
+</div>
