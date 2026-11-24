@@ -52,10 +52,6 @@
 ### `02` / research + currently
 
 ```text
-PD-forecast
-  forecasting a parkinson's patient's next levodopa wear-off from dose
-  timing, quick self-reports and a short tap test. status: in progress
-
 evaluating    whether a deterministic time layer improves llm agents
 studying      deep learning, computer architecture, operating systems
 ```
