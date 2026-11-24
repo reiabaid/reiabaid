@@ -49,12 +49,24 @@
   </tr>
 </table>
 
-### `02` / research + currently
+### `02` / what i'm working on
 
-```text
-evaluating    whether a deterministic time layer improves llm agents
-studying      deep learning, computer architecture, operating systems
-```
+<table cellpadding="14">
+  <tr>
+    <td colspan="2" valign="top">
+      <b>testing</b>
+      <br />
+      whether giving ai agents a reliable clock makes them make fewer mistakes.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <b>learning</b>
+      <br />
+      deep learning, how computers are built, and how operating systems work.
+    </td>
+  </tr>
+</table>
 
 ### `03` / stack
 
